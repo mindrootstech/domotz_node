@@ -1,0 +1,606 @@
+--------------------------Start Error-------------------------------------- 
+linenumber :     at login (/var/www/html/domotz/domotz_backend/controllers/auth/adminLoginController.js:26:19) 
+Function : login 
+message: something went wrong 
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+linenumber :     at login (/var/www/html/domotz/domotz_backend/controllers/auth/adminLoginController.js:26:19) 
+Function : login 
+message: something went wrong 
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at login (/var/www/html/domotz/domotz_backend/controllers/auth/adminLoginController.js:26:19) 
+Function : login 
+message: something went wrong 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at login (/var/www/html/domotz/domotz_backend/controllers/auth/adminLoginController.js:26:19) 
+Function : login 
+message: something went wrong 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bharaddt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bharaddt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bharat1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at register (/var/www/html/domotz/domotz_backend/controllers/auth/registerController.js:48:17) 
+Function : register 
+message: res.staus is not a function 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bharggat1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bharggazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bharggazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bharggazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggsfsazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggsfsazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggsfsazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggsfsazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggsfsazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggsfsazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggsfsazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggsfsazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggsfsazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggsfsazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggsfsazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggsfsazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggsfsazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggsfsazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggsfsazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggsfsazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggsfsazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bhardfdggsfsazt1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "fsfs@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "fsfs@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "fsfs@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "fsfs@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "fsfs@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "fsfs@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bharat1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bharat1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bharat1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bharat1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bharat1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bharat1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bharat1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bharat1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at Function.create (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/core/error.js:59:12) 
+Function : Function.create 
+message: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "bharrat1@mindroots.com" } 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at all (/var/www/html/domotz/domotz_backend/controllers/auth/userController.js:29:28) 
+Function : all 
+message: user.count is not a function 
+Date: Error-Log-2023-4-11 
+
+
+ --------------------------End Error--------------------------------------
+
