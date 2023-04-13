@@ -7,5 +7,6 @@ export const {
     DB_URL,
     JWT_SECRET,
     REFRESH_SECRET,
-    APP_URL
+    APP_URL,
+    SITE_URL
 } = process.env;

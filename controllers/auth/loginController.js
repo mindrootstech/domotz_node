@@ -3,16 +3,15 @@ import { User, RefreshToken } from '../../models';
 import CustomErrorHandler from '../../services/CustomErrorHandler';
 import bcrypt from 'bcrypt';
 import JwtService from '../../services/JwtService';
-import { REFRESH_SECRET } from '../../config';
+import { REFRESH_SECRET, SITE_URL } from '../../config';
 import ErrorLog from '../../services/ErrorLog';
-import nodemailer from "nodemailer"
 
 const loginController = {
     async login(req, res, next) {
         // Validation
         const loginSchema = Joi.object({
             email: Joi.string().email().required(),
-            password: Joi.string().pattern(new RegExp('^[a-zA-Z0-9]{3,30}$')).required(),
+            password: Joi.string().pattern(new RegExp('^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])')).required(),
         });
         const { error } = loginSchema.validate(req.body);
 
@@ -81,12 +80,51 @@ const loginController = {
                     type: 'error'
                 })
             }
-            
-
+            const email_token = JwtService.sign({ _id: exist._id, role: exist.role }, '10m', REFRESH_SECRET);
+            let link = SITE_URL + '/reset-password?token=' + email_token
+            let name = exist.firstname + ' ' + exist.lastname || ''
+            let messageLine = `Hi ${name}. Please check your register email. `
+            res.status(200).json({
+                message: messageLine,
+                link
+            })
         } catch (err) {
             return next(new Error('Something went wrong in the database'));
         }
     },
+    async resetpassword(req, res, next) {
+        // validation
+        const {password, confirm_password, id} = req.body
+        const resetSchema = Joi.object({
+            password: Joi.string().required(),
+            confirm_password: Joi.string().required(),
+            id: Joi.string().required(),
+        });
+        const { error } = resetSchema.validate(req.body);
+
+        if (error) {
+            return next(error);
+        }
+        try {
+            console.log(req.body)
+            // Hash password
+            const hashedPassword = await bcrypt.hash(password, 10);
+            console.log(hashedPassword, 'hashedPassword')
+            const filter = { _id:id };
+            const update = { password: hashedPassword };
+            // `doc` is the document _before_ `update` was applied
+            let doc = await User.findOneAndUpdate(filter, update);
+            if (doc) {
+                res.status(200).json({
+                    status: true,
+                    message: 'Password update successfully.',
+                })
+            }
+
+        } catch (err) {
+            return next(new Error('Something went wrong in the database'));
+        }
+    }
 
 };
 

@@ -29,6 +29,8 @@ app.use('/', (req, res) => {
     res.send(` <h1>Welcome to Domotz APIs</h1>  `);
 });
 
+
+//work
 app.use(errorHandler);
 const PORT = process.env.PORT || APP_PORT;
 app.listen(PORT, () => console.log(`Listening on port ${PORT}.`));

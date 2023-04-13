@@ -8,7 +8,9 @@ import admin from '../middlewares/admin';
 
 router.post('/register', registerController.register);
 router.post('/login', loginController.login);
-router.post('/forgetpassword', loginController.forgetpassword);
+router.post('/forget-password', loginController.forgetpassword);
+router.post('/reset-password', loginController.resetpassword);
+
 router.get('/me', auth, userController.me);
 router.get('/all', [auth, admin], userController.all);
 router.post('/refresh', refreshController.refresh);
