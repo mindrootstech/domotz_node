@@ -13,7 +13,10 @@ const adminRegisterController = {
             lasttname: Joi.string(),
             username: Joi.string(),
             email: Joi.string().email().required(),
-            password: Joi.string().pattern(new RegExp('^[a-zA-Z0-9]{3,30}$')).required(),
+            password: Joi.string().pattern(
+                /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])/,
+                "Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character"
+              ).required(),
             repeat_password: Joi.ref('password')
         });
         const { error } = registerSchema.validate(req.body);

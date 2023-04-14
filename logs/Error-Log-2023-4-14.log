@@ -1,0 +1,121 @@
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at MessageStream.messageHandler (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/cmap/connection.js:299:20) 
+Function : MessageStream.messageHandler 
+message: BSON field 'FindCommandRequest.limit' is the wrong type 'string', expected types '[long, int, decimal, double'] 
+Date: Error-Log-2023-4-14 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at MessageStream.messageHandler (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/cmap/connection.js:299:20) 
+Function : MessageStream.messageHandler 
+message: BSON field 'FindCommandRequest.limit' is the wrong type 'string', expected types '[long, int, decimal, double'] 
+Date: Error-Log-2023-4-14 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at MessageStream.messageHandler (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/cmap/connection.js:299:20) 
+Function : MessageStream.messageHandler 
+message: BSON field 'FindCommandRequest.limit' is the wrong type 'string', expected types '[long, int, decimal, double'] 
+Date: Error-Log-2023-4-14 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at MessageStream.messageHandler (/var/www/html/domotz/domotz_backend/node_modules/mongodb/lib/cmap/connection.js:299:20) 
+Function : MessageStream.messageHandler 
+message: BSON field 'FindCommandRequest.limit' is the wrong type 'string', expected types '[long, int, decimal, double'] 
+Date: Error-Log-2023-4-14 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at model.Query.exec (/var/www/html/domotz/domotz_backend/node_modules/mongoose/lib/query.js:4498:21) 
+Function : model.Query.exec 
+message: Cast to number failed for value "i" (type string) at path "phone_number" for model "User" 
+Date: Error-Log-2023-4-14 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at model.Query.exec (/var/www/html/domotz/domotz_backend/node_modules/mongoose/lib/query.js:4498:21) 
+Function : model.Query.exec 
+message: Cast to number failed for value "i" (type string) at path "phone_number" for model "User" 
+Date: Error-Log-2023-4-14 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at model.Query.exec (/var/www/html/domotz/domotz_backend/node_modules/mongoose/lib/query.js:4498:21) 
+Function : model.Query.exec 
+message: Cast to number failed for value "i" (type string) at path "phone_number" for model "User" 
+Date: Error-Log-2023-4-14 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at all (/var/www/html/domotz/domotz_node/controllers/auth/userController.js:44:66) 
+Function : all 
+message: i is not defined 
+Date: Error-Log-2023-4-14 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at model.Query.exec (/var/www/html/domotz/domotz_backend/node_modules/mongoose/lib/query.js:4498:21) 
+Function : model.Query.exec 
+message: Cast to number failed for value "d+" (type string) at path "phone_number" for model "User" 
+Date: Error-Log-2023-4-14 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at model.Query.exec (/var/www/html/domotz/domotz_backend/node_modules/mongoose/lib/query.js:4498:21) 
+Function : model.Query.exec 
+message: Cast to Number failed for value "saini" (type string) at path "phone_number" for model "User" 
+Date: Error-Log-2023-4-14 
+
+
+ --------------------------End Error--------------------------------------
+
+--------------------------Start Error-------------------------------------- 
+
+
+linenumber :     at model.Query.exec (/var/www/html/domotz/domotz_backend/node_modules/mongoose/lib/query.js:4498:21) 
+Function : model.Query.exec 
+message: Cast to number failed for value "i" (type string) at path "phone_number" for model "User" 
+Date: Error-Log-2023-4-14 
+
+
+ --------------------------End Error--------------------------------------
+
