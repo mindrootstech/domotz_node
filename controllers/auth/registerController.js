@@ -40,8 +40,8 @@ const registerController = {
         // prepare the model
 
         const user = new User({
-            firstname, lastname, phone_number, email,
-            password: hashedPassword
+             firstname, lastname, phone_number, email,
+                                     password: hashedPassword
         });
 
         try {
