@@ -11,7 +11,7 @@ const registerController = {
         const registerSchema = Joi.object({
             firstname: Joi.string().min(3).max(30).required(),
             email: Joi.string().email().required(),
-            lastname:Joi.string(),
+            lastname: Joi.string(),
             phone_number: Joi.number(),
             password: Joi.string().pattern(new RegExp('^[a-zA-Z0-9]{3,30}$')).required(),
         });
@@ -24,9 +24,9 @@ const registerController = {
             const exist = await User.exists({ email: req.body.email });
             if (exist) {
                 res.status(200).json({
-                    status:false,
-                    message:'This email is already taken.',
-                    type:'error'
+                    status: false,
+                    message: 'This email is already taken.',
+                    type: 'error'
                 })
             }
         } catch (err) {
@@ -40,16 +40,16 @@ const registerController = {
         // prepare the model
 
         const user = new User({
-             firstname, lastname, phone_number, email,
-                                     password: hashedPassword
+            firstname, lastname, phone_number, email,
+            password: hashedPassword
         });
 
         try {
             const result = await user.save();
             res.status(201).json({
-                status:true,
+                status: true,
                 type: 'success',
-                message:'User saved successfully.'
+                message: 'User saved successfully.'
             })
 
         } catch (err) {
