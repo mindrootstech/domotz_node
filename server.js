@@ -5,7 +5,6 @@ import cors from 'cors';
 import { APP_PORT, DB_URL } from './config';
 import errorHandler from './middlewares/errorHandler';
 import routes from './routes';;
-
 const app = express();
 
 // Database connection
