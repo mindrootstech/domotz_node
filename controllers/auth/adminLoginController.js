@@ -1,7 +1,7 @@
 import Joi from 'joi';
+import bcrypt from 'bcrypt';
 import { Admin, RefreshToken } from '../../models';
 import CustomErrorHandler from '../../services/CustomErrorHandler';
-import bcrypt from 'bcrypt';
 import JwtService from '../../services/JwtService';
 import ErrorLog from '../../services/ErrorLog';
 import { REFRESH_SECRET } from '../../config';
@@ -14,18 +14,15 @@ const adminLoginController = {
             role: Joi.string().required(),
             password: Joi.string().pattern(
                 /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])/,
-                "Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character"
-              ).required(),
+                'Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character',
+            ).required(),
         });
         const { error } = loginSchema.validate(req.body);
-
         if (error) {
             return next(error);
         }
-
         try {
             const user = await Admin.findOne({ email: req.body.email, role: req.body.role });
-            
             if (!user) {
                 return next(CustomErrorHandler.wrongCredentials());
             }
@@ -34,19 +31,16 @@ const adminLoginController = {
             if (!match) {
                 return next(CustomErrorHandler.wrongCredentials());
             }
-
             // Toekn
-            const access_token = JwtService.sign({ _id: user._id, role: user.role });
-            const refresh_token = JwtService.sign({ _id: user._id, role: user.role }, '1y', REFRESH_SECRET);
+            const accessToken = JwtService.sign({ _id: user._id, role: user.role });
+            const refreshToken = JwtService.sign({ _id: user._id, role: user.role }, '1y', REFRESH_SECRET);
             // database whitelist
-            await RefreshToken.create({ token: refresh_token });
-            res.json({ access_token, refresh_token });
-
+            await RefreshToken.create({ token: refreshToken });
+            return res.json({ accessToken, refreshToken });
         } catch (err) {
-            ErrorLog.createerrorlog(err)
+            ErrorLog.createerrorlog(err);
             return next(err);
         }
-
     },
     async logout(req, res, next) {
         // validation
@@ -65,9 +59,8 @@ const adminLoginController = {
             return next(new Error('Something went wrong in the database'));
         }
         res.json({ status: 1 });
-    }
+    },
 
 };
-
 
 export default adminLoginController;

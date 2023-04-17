@@ -1,10 +1,8 @@
 import Joi from 'joi';
-import { User, RefreshToken } from '../../models';
 import bcrypt from 'bcrypt';
-import JwtService from '../../services/JwtService';
-import CustomErrorHandler from '../../services/CustomErrorHandler';
-import { REFRESH_SECRET } from '../../config';
+import { User } from '../../models';
 import ErrorLog from '../../services/ErrorLog';
+
 const registerController = {
     async register(req, res, next) {
         // Validation
@@ -12,11 +10,11 @@ const registerController = {
             firstname: Joi.string().min(3).max(30).required(),
             email: Joi.string().email().required(),
             lastname: Joi.string(),
-            phone_number: Joi.number(),
+            phonenumber: Joi.number(),
             password: Joi.string().pattern(
                 /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])/,
-                "Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character"
-              ).required(),
+                'Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character',
+            ).required(),
         });
         const { error } = registerSchema.validate(req.body);
         if (error) {
@@ -29,13 +27,15 @@ const registerController = {
                 res.status(200).json({
                     status: false,
                     message: 'This email is already taken.',
-                    type: 'error'
-                })
+                    type: 'error',
+                });
             }
         } catch (err) {
             return next(err);
         }
-        const { firstname, lastname, phone_number, email, password } = req.body;
+        const {
+            firstname, lastname, phonenumber, email, password,
+        } = req.body;
 
         // Hash password
         const hashedPassword = await bcrypt.hash(password, 10);
@@ -43,24 +43,25 @@ const registerController = {
         // prepare the model
 
         const user = new User({
-            firstname, lastname, phone_number, email,
-            password: hashedPassword
+            firstname,
+            lastname,
+            phonenumber,
+            email,
+            password: hashedPassword,
         });
 
         try {
-            const result = await user.save();
+            await user.save();
             res.status(201).json({
                 status: true,
                 type: 'success',
-                message: 'User saved successfully.'
-            })
-
+                message: 'User saved successfully.',
+            });
         } catch (err) {
-            ErrorLog.createerrorlog(err)
+            ErrorLog.createerrorlog(err);
             return next(err);
         }
-    }
-}
-
+    },
+};
 
 export default registerController;

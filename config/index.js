@@ -1,4 +1,5 @@
 import dotenv from 'dotenv';
+
 dotenv.config();
 
 export const {
@@ -8,5 +9,5 @@ export const {
     JWT_SECRET,
     REFRESH_SECRET,
     APP_URL,
-    SITE_URL
+    SITE_URL,
 } = process.env;
